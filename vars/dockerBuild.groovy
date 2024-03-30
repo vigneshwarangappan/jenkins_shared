@@ -1,5 +1,6 @@
 def call(){
     sh """
-     docker image build -t javaapp:latest .
+     echo 'HAI this is Shared Library'
+     //docker image build -t javaapp:latest .
     """
 }
