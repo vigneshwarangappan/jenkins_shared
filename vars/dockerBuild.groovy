@@ -1,3 +1,5 @@
 def call(){
-    echo "HAI"
+    sh """
+     docker image build -t javaapp:latest .
+    """
 }
